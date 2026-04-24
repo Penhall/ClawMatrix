@@ -3,6 +3,12 @@ import * as path from 'path';
 import { lookupMatrix } from './solver.js';
 import type { AuditResult, DetectedStack, DetectedContradiction } from './types.js';
 
+type PkgJson = {
+  dependencies?: Record<string, string>;
+  devDependencies?: Record<string, string>;
+  engines?: { node?: string };
+};
+
 async function fileExists(filePath: string): Promise<boolean> {
   try {
     await fs.access(filePath);
@@ -17,19 +23,28 @@ async function detectStack(rootDir: string): Promise<DetectedStack> {
 
   const pkgPath = path.join(rootDir, 'package.json');
   if (await fileExists(pkgPath)) {
-    stack.runtime = `Node.js ${process.version.replace('v', '')}`;
-    const pkg = JSON.parse(await fs.readFile(pkgPath, 'utf-8'));
+    let pkg: PkgJson = {};
+    try {
+      pkg = JSON.parse(await fs.readFile(pkgPath, 'utf-8')) as PkgJson;
+    } catch { /* ignore malformed package.json */ }
+    const runtimeVersion = pkg.engines?.node ?? process.version.replace('v', '');
+    stack.runtime = `Node.js ${runtimeVersion}`;
     const deps = { ...pkg.dependencies, ...pkg.devDependencies };
     if (deps['next']) stack.framework = 'Next.js';
     if (deps['@prisma/client'] || deps['prisma']) stack.orm = 'Prisma';
     if (deps['typescript']) stack.language = 'TypeScript';
   }
 
-  const hasCsproj = (await fs.readdir(rootDir)).some((f) => f.endsWith('.csproj'));
-  if (hasCsproj) { stack.language = 'C#'; stack.runtime = '.NET'; }
+  let rootEntries: string[] = [];
+  try { rootEntries = await fs.readdir(rootDir); } catch { /* ignore unreadable directory */ }
+  if (rootEntries.some((f) => f.endsWith('.csproj'))) {
+    stack.language = 'C#';
+    stack.runtime = '.NET';
+  }
 
   if (await fileExists(path.join(rootDir, 'pom.xml'))) {
-    stack.language = 'Java'; stack.runtime = 'JVM';
+    stack.language = 'Java';
+    stack.runtime = 'JVM';
   }
 
   if (
@@ -50,7 +65,8 @@ async function findFiles(rootDir: string, pattern: RegExp): Promise<string[]> {
     for (const entry of entries) {
       if (entry === 'node_modules' || entry === '.git') continue;
       const full = path.join(dir, entry);
-      const stat = await fs.stat(full);
+      let stat;
+      try { stat = await fs.stat(full); } catch { continue; }
       if (stat.isDirectory()) { await walk(full); }
       else if (pattern.test(entry)) { results.push(path.relative(rootDir, full)); }
     }
@@ -72,13 +88,16 @@ async function detectUnusedEnvVars(rootDir: string): Promise<string[]> {
 
   if (definedVars.length === 0) return [];
 
-  const sourceFiles = await findFiles(rootDir, /\.(ts|js|tsx|jsx)$/);
+  // Scan both source files (process.env.VAR) and prisma schemas (env("VAR"))
+  const sourceFiles = await findFiles(rootDir, /\.(ts|js|tsx|jsx|prisma)$/);
   const allSource = await Promise.all(
     sourceFiles.map((f) => fs.readFile(path.join(rootDir, f), 'utf-8')),
   );
   const combined = allSource.join('\n');
 
-  const unused = definedVars.filter((v) => !combined.includes(`process.env.${v}`));
+  const unused = definedVars.filter(
+    (v) => !combined.includes(`process.env.${v}`) && !combined.includes(`env("${v}")`),
+  );
   return unused.map((v) => `.env: variável ${v} definida mas não utilizada no código`);
 }
 
