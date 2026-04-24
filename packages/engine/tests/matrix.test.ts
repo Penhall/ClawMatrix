@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import matrixData from '../src/data/matrix.json' assert { type: 'json' };
 import { principles } from '../src/data/principles/index.js';
 import { lookupMatrix } from '../src/solver.js';
+import { explainPrinciple } from '../src/solver.js';
 
 describe('Matrix integrity', () => {
   it('has exactly 1521 cells', () => {
@@ -89,5 +90,30 @@ describe('lookupMatrix', () => {
       expect(typeof p.name).toBe('string');
       expect(typeof p.description).toBe('string');
     });
+  });
+});
+
+describe('explainPrinciple', () => {
+  it('returns principle #1 Segmentation', () => {
+    const p = explainPrinciple(1);
+    expect(p.id).toBe(1);
+    expect(p.name).toBe('Segmentation');
+    expect(p.description.length).toBeGreaterThan(10);
+  });
+
+  it('throws for ID out of range', () => {
+    expect(() => explainPrinciple(0)).toThrow();
+    expect(() => explainPrinciple(41)).toThrow();
+  });
+
+  it('returns principle #28 with stack-specific example for Next.js', () => {
+    const p = explainPrinciple(28, { framework: 'Next.js' });
+    expect(p.examples).toBeDefined();
+    expect(p.examples!.length).toBeGreaterThan(0);
+  });
+
+  it('returns principle without examples when no stack provided', () => {
+    const p = explainPrinciple(35);
+    expect(p.examples).toBeUndefined();
   });
 });
