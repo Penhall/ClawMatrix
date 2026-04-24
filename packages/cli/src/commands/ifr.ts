@@ -8,6 +8,11 @@ export const ifrCommand = new Command('ifr')
   .requiredOption('--goal <desc>', 'objetivo ou problema a resolver')
   .action((opts, cmd) => {
     const globalOpts = cmd.parent!.opts() as OutputOpts;
-    const result = generateIFR(opts.goal);
-    printIFR(result, globalOpts);
+    try {
+      const result = generateIFR(opts.goal);
+      printIFR(result, globalOpts);
+    } catch (e: unknown) {
+      console.error((e as Error).message);
+      process.exit(1);
+    }
   });

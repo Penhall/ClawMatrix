@@ -9,6 +9,11 @@ export const solveCommand = new Command('solve')
   .requiredOption('--problem <desc>', 'descrição do problema ou contradição')
   .action((opts, cmd) => {
     const globalOpts = cmd.parent!.opts() as OutputOpts;
-    const report = solveContradiction(opts.system, opts.problem);
-    printSolveReport(report, globalOpts);
+    try {
+      const report = solveContradiction(opts.system, opts.problem);
+      printSolveReport(report, globalOpts);
+    } catch (e: unknown) {
+      console.error((e as Error).message);
+      process.exit(1);
+    }
   });
