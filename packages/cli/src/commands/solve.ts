@@ -8,12 +8,12 @@ export const solveCommand = new Command('solve')
   .requiredOption('--system <desc>', 'descrição do sistema')
   .requiredOption('--problem <desc>', 'descrição do problema ou contradição')
   .action((opts, cmd) => {
-    const globalOpts = cmd.parent!.opts() as OutputOpts;
+    const globalOpts = cmd.optsWithGlobals() as OutputOpts;
     try {
-      const report = solveContradiction(opts.system, opts.problem);
+      const report = solveContradiction(opts.system, opts.problem, globalOpts.lang);
       printSolveReport(report, globalOpts);
-    } catch (e: unknown) {
-      console.error((e as Error).message);
+    } catch (error: unknown) {
+      console.error((error as Error).message);
       process.exit(1);
     }
   });

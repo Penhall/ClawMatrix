@@ -7,12 +7,12 @@ export const ifrCommand = new Command('ifr')
   .description('Gera a declaração de Resultado Final Ideal (IFR)')
   .requiredOption('--goal <desc>', 'objetivo ou problema a resolver')
   .action((opts, cmd) => {
-    const globalOpts = cmd.parent!.opts() as OutputOpts;
+    const globalOpts = cmd.optsWithGlobals() as OutputOpts;
     try {
-      const result = generateIFR(opts.goal);
+      const result = generateIFR(opts.goal, globalOpts.lang);
       printIFR(result, globalOpts);
-    } catch (e: unknown) {
-      console.error((e as Error).message);
+    } catch (error: unknown) {
+      console.error((error as Error).message);
       process.exit(1);
     }
   });

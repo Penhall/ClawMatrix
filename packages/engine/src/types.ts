@@ -1,4 +1,5 @@
-export type ParameterId = number; // 1–39
+export type ParameterId = number; // 1-39
+export type OutputLanguage = 'pt' | 'en';
 
 export interface Parameter {
   id: ParameterId;
@@ -17,10 +18,10 @@ export interface MatrixData {
 }
 
 export interface Principle {
-  id: number;          // 1–40
-  name: string;        // EN: "Segmentation"
-  description: string; // PT: "Divida o objeto em partes independentes"
-  examples?: string[]; // PT: stack-specific examples (populated by explainPrinciple)
+  id: number; // 1-40
+  name: string; // EN: "Segmentation"
+  description: string; // localized via output language
+  examples?: string[]; // localized stack-specific examples
 }
 
 export interface ContradictionResult {
@@ -31,15 +32,15 @@ export interface ContradictionResult {
 
 export interface IFRResult {
   goal: string;
-  statement: string;   // PT
-  resources: string[]; // PT
+  statement: string; // localized
+  resources: string[]; // localized
 }
 
 export interface DetectedStack {
-  runtime?: string;    // "Node.js 20"
-  framework?: string;  // "Next.js 14"
-  orm?: string;        // "Prisma"
-  language?: string;   // "TypeScript" | "C#" | "Python"
+  runtime?: string; // "Node.js 20"
+  framework?: string; // "Next.js 14"
+  orm?: string; // "Prisma"
+  language?: string; // "TypeScript" | "C#" | "Python"
 }
 
 export interface DetectedContradiction {
@@ -53,7 +54,7 @@ export interface SolveReport {
   problem: string;
   ifr: IFRResult;
   contradiction: ContradictionResult;
-  steps: string[]; // PT: 5 TRIZ workflow steps as human-readable strings
+  steps: string[]; // localized 5-step TRIZ workflow
 }
 
 export interface AuditResult {

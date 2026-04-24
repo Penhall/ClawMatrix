@@ -4,15 +4,15 @@ import { printPrinciple } from '../format.js';
 import type { OutputOpts } from '../format.js';
 
 export const conceptCommand = new Command('concept')
-  .description('Explica um princípio inventivo (1–40)')
-  .requiredOption('--principle <id>', 'ID do princípio (1–40)', parseInt)
+  .description('Explica um princípio inventivo (1-40)')
+  .requiredOption('--principle <id>', 'ID do princípio (1-40)', parseInt)
   .action((opts, cmd) => {
-    const globalOpts = cmd.parent!.opts() as OutputOpts;
+    const globalOpts = cmd.optsWithGlobals() as OutputOpts;
     try {
-      const principle = explainPrinciple(opts.principle);
+      const principle = explainPrinciple(opts.principle, undefined, globalOpts.lang);
       printPrinciple(principle, globalOpts);
-    } catch (e: unknown) {
-      console.error((e as Error).message);
+    } catch (error: unknown) {
+      console.error((error as Error).message);
       process.exit(1);
     }
   });
