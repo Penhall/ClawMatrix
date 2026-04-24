@@ -1,4 +1,4 @@
-import chalk from 'chalk';
+import chalk, { type ChalkInstance } from 'chalk';
 import type { ContradictionResult, IFRResult, AuditResult, Principle, SolveReport } from '@claw/engine';
 
 export interface OutputOpts {
@@ -7,7 +7,7 @@ export interface OutputOpts {
   lang: 'pt' | 'en';
 }
 
-function c(text: string, color: (s: string) => string, opts: OutputOpts): string {
+function c(text: string, color: ChalkInstance, opts: OutputOpts): string {
   return opts.noColor || opts.json ? text : color(text);
 }
 

@@ -22,4 +22,4 @@ program.addCommand(ifrCommand);
 program.addCommand(auditCommand);
 program.addCommand(solveCommand);
 
-program.parse();
+program.parse(process.argv);
