@@ -134,8 +134,8 @@ async function detectUnusedEnvVars(rootDir: string, lang: OutputLanguage): Promi
   const envContent = await fs.readFile(envPath, 'utf-8');
   const definedVars = envContent
     .split('\n')
-    .filter((line) => line.trim() && !line.trim().startsWith('#'))
-    .map((line) => line.split('=')[0]?.trim())
+    .filter((line: string) => line.trim() && !line.trim().startsWith('#'))
+    .map((line: string) => line.split('=')[0]?.trim())
     .filter(Boolean) as string[];
 
   if (definedVars.length === 0) return [];
