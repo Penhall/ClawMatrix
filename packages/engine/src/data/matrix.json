@@ -1,0 +1,8494 @@
+{
+  "parameters": [
+    {
+      "id": 1,
+      "name": "Weight of moving object"
+    },
+    {
+      "id": 2,
+      "name": "Weight of stationary object"
+    },
+    {
+      "id": 3,
+      "name": "Length of moving object"
+    },
+    {
+      "id": 4,
+      "name": "Length of stationary object"
+    },
+    {
+      "id": 5,
+      "name": "Area of moving object"
+    },
+    {
+      "id": 6,
+      "name": "Area of stationary object"
+    },
+    {
+      "id": 7,
+      "name": "Volume of moving object"
+    },
+    {
+      "id": 8,
+      "name": "Volume of stationary object"
+    },
+    {
+      "id": 9,
+      "name": "Speed"
+    },
+    {
+      "id": 10,
+      "name": "Force"
+    },
+    {
+      "id": 11,
+      "name": "Stress or pressure"
+    },
+    {
+      "id": 12,
+      "name": "Shape"
+    },
+    {
+      "id": 13,
+      "name": "Stability of object composition"
+    },
+    {
+      "id": 14,
+      "name": "Strength"
+    },
+    {
+      "id": 15,
+      "name": "Duration of action by moving object"
+    },
+    {
+      "id": 16,
+      "name": "Duration of action by stationary object"
+    },
+    {
+      "id": 17,
+      "name": "Temperature"
+    },
+    {
+      "id": 18,
+      "name": "Illumination intensity"
+    },
+    {
+      "id": 19,
+      "name": "Use of energy by moving object"
+    },
+    {
+      "id": 20,
+      "name": "Use of energy by stationary object"
+    },
+    {
+      "id": 21,
+      "name": "Power"
+    },
+    {
+      "id": 22,
+      "name": "Loss of energy"
+    },
+    {
+      "id": 23,
+      "name": "Loss of substance"
+    },
+    {
+      "id": 24,
+      "name": "Loss of information"
+    },
+    {
+      "id": 25,
+      "name": "Loss of time"
+    },
+    {
+      "id": 26,
+      "name": "Quantity of substance or matter"
+    },
+    {
+      "id": 27,
+      "name": "Reliability"
+    },
+    {
+      "id": 28,
+      "name": "Measurement accuracy"
+    },
+    {
+      "id": 29,
+      "name": "Manufacturing precision"
+    },
+    {
+      "id": 30,
+      "name": "Object-affected harmful factors"
+    },
+    {
+      "id": 31,
+      "name": "Object-generated harmful factors"
+    },
+    {
+      "id": 32,
+      "name": "Ease of manufacture"
+    },
+    {
+      "id": 33,
+      "name": "Ease of operation"
+    },
+    {
+      "id": 34,
+      "name": "Ease of repair"
+    },
+    {
+      "id": 35,
+      "name": "Adaptability or versatility"
+    },
+    {
+      "id": 36,
+      "name": "Device complexity"
+    },
+    {
+      "id": 37,
+      "name": "Difficulty of detecting and measuring"
+    },
+    {
+      "id": 38,
+      "name": "Extent of automation"
+    },
+    {
+      "id": 39,
+      "name": "Productivity"
+    }
+  ],
+  "cells": [
+    {
+      "improving": 1,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 2,
+      "principles": [
+        15,
+        8,
+        29,
+        34
+      ]
+    },
+    {
+      "improving": 1,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 4,
+      "principles": [
+        35,
+        28,
+        40,
+        29
+      ]
+    },
+    {
+      "improving": 1,
+      "worsening": 5,
+      "principles": [
+        2,
+        17,
+        29,
+        4
+      ]
+    },
+    {
+      "improving": 1,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 7,
+      "principles": [
+        2,
+        26,
+        29,
+        40
+      ]
+    },
+    {
+      "improving": 1,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 15,
+      "principles": [
+        19,
+        5,
+        34,
+        31
+      ]
+    },
+    {
+      "improving": 1,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 17,
+      "principles": [
+        36,
+        22,
+        6,
+        38
+      ]
+    },
+    {
+      "improving": 1,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 21,
+      "principles": [
+        19,
+        9,
+        6,
+        27
+      ]
+    },
+    {
+      "improving": 1,
+      "worsening": 22,
+      "principles": [
+        35,
+        22,
+        18,
+        39
+      ]
+    },
+    {
+      "improving": 1,
+      "worsening": 23,
+      "principles": [
+        35,
+        28,
+        15,
+        18
+      ]
+    },
+    {
+      "improving": 1,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 25,
+      "principles": [
+        10,
+        20,
+        37,
+        35
+      ]
+    },
+    {
+      "improving": 1,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 27,
+      "principles": [
+        11,
+        28,
+        27,
+        3
+      ]
+    },
+    {
+      "improving": 1,
+      "worsening": 28,
+      "principles": [
+        28,
+        27,
+        35,
+        26
+      ]
+    },
+    {
+      "improving": 1,
+      "worsening": 29,
+      "principles": [
+        28,
+        35,
+        10,
+        23
+      ]
+    },
+    {
+      "improving": 1,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 36,
+      "principles": [
+        26,
+        27,
+        13
+      ]
+    },
+    {
+      "improving": 1,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 1,
+      "worsening": 38,
+      "principles": [
+        28,
+        26,
+        18,
+        35
+      ]
+    },
+    {
+      "improving": 1,
+      "worsening": 39,
+      "principles": [
+        35,
+        26,
+        24,
+        37
+      ]
+    },
+    {
+      "improving": 2,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 2,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 3,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 4,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 5,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 6,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 7,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 8,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 1,
+      "principles": [
+        2,
+        28,
+        13,
+        38
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 5,
+      "principles": [
+        13,
+        14,
+        8
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 7,
+      "principles": [
+        29,
+        34,
+        5
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 8,
+      "principles": [
+        7,
+        29,
+        34
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 10,
+      "principles": [
+        13,
+        28,
+        15,
+        12
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 11,
+      "principles": [
+        6,
+        18,
+        38,
+        40
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 12,
+      "principles": [
+        35,
+        15,
+        18,
+        34
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 13,
+      "principles": [
+        28,
+        33,
+        1,
+        18
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 14,
+      "principles": [
+        8,
+        15,
+        29,
+        34
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 16,
+      "principles": [
+        10,
+        20,
+        37,
+        35
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 18,
+      "principles": [
+        19,
+        1,
+        32
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 21,
+      "principles": [
+        19,
+        10,
+        32,
+        18
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 22,
+      "principles": [
+        14,
+        20,
+        19,
+        35
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 23,
+      "principles": [
+        10,
+        13,
+        28,
+        38
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 25,
+      "principles": [
+        10,
+        37,
+        14
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 27,
+      "principles": [
+        28,
+        13,
+        18
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 28,
+      "principles": [
+        28,
+        32,
+        13
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 35,
+      "principles": [
+        15,
+        10,
+        37,
+        28
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 36,
+      "principles": [
+        10,
+        37,
+        14
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 9,
+      "worsening": 38,
+      "principles": [
+        13,
+        28,
+        15,
+        12
+      ]
+    },
+    {
+      "improving": 9,
+      "worsening": 39,
+      "principles": [
+        35,
+        10,
+        3,
+        21
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 1,
+      "principles": [
+        8,
+        1,
+        37,
+        18
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 2,
+      "principles": [
+        18,
+        13,
+        1,
+        28
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 3,
+      "principles": [
+        17,
+        19,
+        9,
+        36
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 4,
+      "principles": [
+        28,
+        10
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 5,
+      "principles": [
+        19,
+        10,
+        15
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 6,
+      "principles": [
+        1,
+        18,
+        36,
+        37
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 7,
+      "principles": [
+        15,
+        9,
+        12,
+        37
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 8,
+      "principles": [
+        2,
+        36,
+        25
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 9,
+      "principles": [
+        13,
+        28,
+        15,
+        12
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 10,
+      "worsening": 11,
+      "principles": [
+        10,
+        36,
+        37,
+        1
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 12,
+      "principles": [
+        14,
+        15,
+        22,
+        35
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 13,
+      "principles": [
+        10,
+        35,
+        40,
+        34
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 14,
+      "principles": [
+        35,
+        10,
+        21
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 15,
+      "principles": [
+        19,
+        2
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 16,
+      "principles": [
+        18,
+        37,
+        1
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 17,
+      "principles": [
+        35,
+        2,
+        40,
+        11
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 18,
+      "principles": [
+        36,
+        37,
+        10,
+        19
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 19,
+      "principles": [
+        14,
+        2,
+        39,
+        6
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 20,
+      "principles": [
+        35,
+        10,
+        21
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 21,
+      "principles": [
+        35,
+        10,
+        19,
+        14
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 22,
+      "principles": [
+        10,
+        35,
+        14
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 23,
+      "principles": [
+        10,
+        1,
+        35,
+        17
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 24,
+      "principles": [
+        26,
+        24,
+        35
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 25,
+      "principles": [
+        19,
+        38,
+        7
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 26,
+      "principles": [
+        35,
+        6,
+        23,
+        40
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 27,
+      "principles": [
+        11,
+        28,
+        10,
+        25
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 28,
+      "principles": [
+        28,
+        32,
+        13
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 29,
+      "principles": [
+        10,
+        28,
+        29,
+        37
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 30,
+      "principles": [
+        35,
+        10,
+        14,
+        27
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 31,
+      "principles": [
+        35,
+        22,
+        40,
+        4
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 32,
+      "principles": [
+        28,
+        29,
+        15,
+        16
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 33,
+      "principles": [
+        1,
+        35,
+        12,
+        18
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 34,
+      "principles": [
+        10,
+        15,
+        35
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 35,
+      "principles": [
+        15,
+        10,
+        37,
+        28
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 36,
+      "principles": [
+        26,
+        27,
+        13
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 37,
+      "principles": [
+        28,
+        15,
+        10,
+        36
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 38,
+      "principles": [
+        28,
+        15,
+        10,
+        36
+      ]
+    },
+    {
+      "improving": 10,
+      "worsening": 39,
+      "principles": [
+        35,
+        26,
+        10,
+        18
+      ]
+    },
+    {
+      "improving": 11,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 11,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 12,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 13,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 14,
+      "worsening": 1,
+      "principles": [
+        1,
+        8,
+        15,
+        40
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 2,
+      "principles": [
+        9,
+        40,
+        28
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 3,
+      "principles": [
+        10,
+        15,
+        14,
+        7
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 4,
+      "principles": [
+        9,
+        14,
+        17,
+        15
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 14,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 14,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 14,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 14,
+      "worsening": 9,
+      "principles": [
+        8,
+        13,
+        26,
+        14
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 10,
+      "principles": [
+        10,
+        18,
+        3,
+        14
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 11,
+      "principles": [
+        10,
+        3,
+        18,
+        40
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 12,
+      "principles": [
+        10,
+        30,
+        35,
+        40
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 13,
+      "principles": [
+        13,
+        17,
+        35
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 14,
+      "worsening": 15,
+      "principles": [
+        3,
+        27,
+        16,
+        40
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 16,
+      "principles": [
+        27,
+        3,
+        26
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 17,
+      "principles": [
+        22,
+        15,
+        33,
+        28
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 18,
+      "principles": [
+        1,
+        32,
+        17,
+        28
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 19,
+      "principles": [
+        14,
+        24,
+        10,
+        37
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 20,
+      "principles": [
+        3,
+        37,
+        7,
+        40
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 21,
+      "principles": [
+        1,
+        10,
+        35
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 22,
+      "principles": [
+        2,
+        35,
+        40
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 23,
+      "principles": [
+        10,
+        30,
+        35,
+        4
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 24,
+      "principles": [
+        10,
+        24,
+        35
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 25,
+      "principles": [
+        30,
+        26,
+        2,
+        36
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 26,
+      "principles": [
+        35,
+        28,
+        31,
+        40
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 27,
+      "principles": [
+        13,
+        17,
+        35
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 28,
+      "principles": [
+        17,
+        27,
+        8,
+        11
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 29,
+      "principles": [
+        1,
+        11
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 30,
+      "principles": [
+        10,
+        36,
+        14,
+        3
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 31,
+      "principles": [
+        10,
+        35,
+        37,
+        40
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 32,
+      "principles": [
+        10,
+        14,
+        35,
+        28
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 33,
+      "principles": [
+        35,
+        10,
+        28
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 34,
+      "principles": [
+        1,
+        35,
+        10,
+        38
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 35,
+      "principles": [
+        15,
+        35,
+        22,
+        2
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 36,
+      "principles": [
+        10,
+        37,
+        14
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 37,
+      "principles": [
+        10,
+        28,
+        4,
+        34
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 38,
+      "principles": [
+        10,
+        14,
+        35,
+        28
+      ]
+    },
+    {
+      "improving": 14,
+      "worsening": 39,
+      "principles": [
+        10,
+        26,
+        35,
+        28
+      ]
+    },
+    {
+      "improving": 15,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 15,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 16,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 17,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 18,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 19,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 20,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 21,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 22,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 23,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 24,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 25,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 26,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 1,
+      "principles": [
+        11,
+        28,
+        27,
+        3
+      ]
+    },
+    {
+      "improving": 27,
+      "worsening": 2,
+      "principles": [
+        27,
+        9,
+        26,
+        24
+      ]
+    },
+    {
+      "improving": 27,
+      "worsening": 3,
+      "principles": [
+        1,
+        35
+      ]
+    },
+    {
+      "improving": 27,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 11,
+      "principles": [
+        11,
+        28
+      ]
+    },
+    {
+      "improving": 27,
+      "worsening": 12,
+      "principles": [
+        10,
+        30,
+        4
+      ]
+    },
+    {
+      "improving": 27,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 21,
+      "principles": [
+        21,
+        11,
+        27,
+        19
+      ]
+    },
+    {
+      "improving": 27,
+      "worsening": 22,
+      "principles": [
+        19,
+        24,
+        39,
+        32
+      ]
+    },
+    {
+      "improving": 27,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 28,
+      "principles": [
+        32,
+        35,
+        26,
+        28
+      ]
+    },
+    {
+      "improving": 27,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 31,
+      "principles": [
+        3,
+        8,
+        10,
+        40
+      ]
+    },
+    {
+      "improving": 27,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 35,
+      "principles": [
+        11,
+        28
+      ]
+    },
+    {
+      "improving": 27,
+      "worsening": 36,
+      "principles": [
+        27,
+        40,
+        28
+      ]
+    },
+    {
+      "improving": 27,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 27,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 1,
+      "principles": [
+        32,
+        35,
+        26,
+        28
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 2,
+      "principles": [
+        28,
+        35,
+        25,
+        26
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 6,
+      "principles": [
+        32,
+        28,
+        3,
+        13
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 9,
+      "principles": [
+        28,
+        13,
+        32,
+        24
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 10,
+      "principles": [
+        28,
+        32,
+        13
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 11,
+      "principles": [
+        6,
+        28,
+        32
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 12,
+      "principles": [
+        32,
+        35,
+        13
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 13,
+      "principles": [
+        28,
+        6,
+        32
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 14,
+      "principles": [
+        28,
+        6,
+        32,
+        9
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 17,
+      "principles": [
+        28,
+        6,
+        32,
+        9
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 18,
+      "principles": [
+        32,
+        35,
+        13,
+        24
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 21,
+      "principles": [
+        28,
+        6,
+        32
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 24,
+      "principles": [
+        28,
+        24,
+        22,
+        26
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 25,
+      "principles": [
+        28,
+        32,
+        1,
+        24
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 26,
+      "principles": [
+        6,
+        28,
+        32
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 32,
+      "principles": [
+        35,
+        28,
+        6,
+        37
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 28,
+      "worsening": 36,
+      "principles": [
+        6,
+        19,
+        35,
+        28
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 37,
+      "principles": [
+        6,
+        1,
+        32
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 38,
+      "principles": [
+        26,
+        24,
+        32,
+        28
+      ]
+    },
+    {
+      "improving": 28,
+      "worsening": 39,
+      "principles": [
+        28,
+        2,
+        10,
+        34
+      ]
+    },
+    {
+      "improving": 29,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 29,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 30,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 31,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 32,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 33,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 34,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 35,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 1,
+      "principles": [
+        26,
+        27,
+        13
+      ]
+    },
+    {
+      "improving": 36,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 9,
+      "principles": [
+        10,
+        37,
+        14
+      ]
+    },
+    {
+      "improving": 36,
+      "worsening": 10,
+      "principles": [
+        26,
+        27,
+        13
+      ]
+    },
+    {
+      "improving": 36,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 14,
+      "principles": [
+        10,
+        37,
+        14
+      ]
+    },
+    {
+      "improving": 36,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 22,
+      "principles": [
+        19,
+        1,
+        32
+      ]
+    },
+    {
+      "improving": 36,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 27,
+      "principles": [
+        27,
+        40,
+        28
+      ]
+    },
+    {
+      "improving": 36,
+      "worsening": 28,
+      "principles": [
+        26,
+        30,
+        34,
+        36
+      ]
+    },
+    {
+      "improving": 36,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 35,
+      "principles": [
+        27,
+        26,
+        28
+      ]
+    },
+    {
+      "improving": 36,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 36,
+      "worsening": 38,
+      "principles": [
+        28,
+        26,
+        30,
+        36
+      ]
+    },
+    {
+      "improving": 36,
+      "worsening": 39,
+      "principles": [
+        15,
+        29,
+        28,
+        37
+      ]
+    },
+    {
+      "improving": 37,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 37,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 1,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 9,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 10,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 25,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 27,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 35,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 36,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 38,
+      "worsening": 39,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 1,
+      "principles": [
+        35,
+        26,
+        24,
+        37
+      ]
+    },
+    {
+      "improving": 39,
+      "worsening": 2,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 3,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 4,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 5,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 6,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 7,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 8,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 9,
+      "principles": [
+        35,
+        10,
+        3,
+        21
+      ]
+    },
+    {
+      "improving": 39,
+      "worsening": 10,
+      "principles": [
+        35,
+        26,
+        10,
+        18
+      ]
+    },
+    {
+      "improving": 39,
+      "worsening": 11,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 12,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 13,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 14,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 15,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 16,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 17,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 18,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 19,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 20,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 21,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 22,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 23,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 24,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 25,
+      "principles": [
+        35,
+        10,
+        2
+      ]
+    },
+    {
+      "improving": 39,
+      "worsening": 26,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 27,
+      "principles": [
+        1,
+        28,
+        10,
+        25
+      ]
+    },
+    {
+      "improving": 39,
+      "worsening": 28,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 29,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 30,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 31,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 32,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 33,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 34,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 35,
+      "principles": [
+        28,
+        10,
+        29,
+        35
+      ]
+    },
+    {
+      "improving": 39,
+      "worsening": 36,
+      "principles": [
+        15,
+        29,
+        28,
+        37
+      ]
+    },
+    {
+      "improving": 39,
+      "worsening": 37,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 38,
+      "principles": []
+    },
+    {
+      "improving": 39,
+      "worsening": 39,
+      "principles": []
+    }
+  ]
+}
