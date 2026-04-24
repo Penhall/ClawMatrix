@@ -1,0 +1,6 @@
+{
+  "name": "fixture-plain-node",
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
