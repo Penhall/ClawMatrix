@@ -82,8 +82,8 @@ async function detectUnusedEnvVars(rootDir: string): Promise<string[]> {
   const envContent = await fs.readFile(envPath, 'utf-8');
   const definedVars = envContent
     .split('\n')
-    .filter((line) => line.trim() && !line.trim().startsWith('#'))
-    .map((line) => line.split('=')[0].trim())
+    .filter((line: string) => line.trim() && !line.trim().startsWith('#'))
+    .map((line: string) => line.split('=')[0].trim())
     .filter(Boolean);
 
   if (definedVars.length === 0) return [];
@@ -96,9 +96,9 @@ async function detectUnusedEnvVars(rootDir: string): Promise<string[]> {
   const combined = allSource.join('\n');
 
   const unused = definedVars.filter(
-    (v) => !combined.includes(`process.env.${v}`) && !combined.includes(`env("${v}")`),
+    (v: string) => !combined.includes(`process.env.${v}`) && !combined.includes(`env("${v}")`),
   );
-  return unused.map((v) => `.env: variável ${v} definida mas não utilizada no código`);
+  return unused.map((v: string) => `.env: variável ${v} definida mas não utilizada no código`);
 }
 
 export async function analyzeProject(rootDir: string): Promise<AuditResult> {

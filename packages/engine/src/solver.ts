@@ -1,4 +1,4 @@
-import matrixData from './data/matrix.json' assert { type: 'json' };
+import matrixData from './data/matrix.json' with { type: 'json' };
 import { getPrinciple } from './data/principles/index.js';
 import { generateIFR } from './ifr.js';
 import type { ContradictionResult, Principle, DetectedStack, SolveReport } from './types.js';
