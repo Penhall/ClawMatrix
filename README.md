@@ -1,5 +1,7 @@
 # ClawMatrix
 
+[English](./README.md) | [Português (Brasil)](./README.pt-BR.md)
+
 ClawMatrix is a TypeScript CLI for applying TRIZ (Theory of Inventive Problem Solving) in software and engineering workflows.
 
 It combines:
