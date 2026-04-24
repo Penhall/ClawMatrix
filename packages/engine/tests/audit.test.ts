@@ -33,6 +33,12 @@ describe('analyzeProject — idle resource detection', () => {
     const indexIssue = result.idleResources.some((r) => r.includes('índice') || r.includes('index') || r.includes('schema'));
     expect(indexIssue).toBe(true);
   });
+
+  it('detects unused environment variables from .env file', async () => {
+    const result = await analyzeProject(path.join(FIXTURES, 'nextjs-prisma'));
+    const envIssue = result.idleResources.some((r) => r.includes('env') || r.includes('ENV') || r.includes('UNUSED'));
+    expect(envIssue).toBe(true);
+  });
 });
 
 describe('analyzeProject — contradictions', () => {

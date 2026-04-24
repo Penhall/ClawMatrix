@@ -59,6 +59,29 @@ async function findFiles(rootDir: string, pattern: RegExp): Promise<string[]> {
   return results;
 }
 
+async function detectUnusedEnvVars(rootDir: string): Promise<string[]> {
+  const envPath = path.join(rootDir, '.env');
+  if (!await fileExists(envPath)) return [];
+
+  const envContent = await fs.readFile(envPath, 'utf-8');
+  const definedVars = envContent
+    .split('\n')
+    .filter((line) => line.trim() && !line.trim().startsWith('#'))
+    .map((line) => line.split('=')[0].trim())
+    .filter(Boolean);
+
+  if (definedVars.length === 0) return [];
+
+  const sourceFiles = await findFiles(rootDir, /\.(ts|js|tsx|jsx)$/);
+  const allSource = await Promise.all(
+    sourceFiles.map((f) => fs.readFile(path.join(rootDir, f), 'utf-8')),
+  );
+  const combined = allSource.join('\n');
+
+  const unused = definedVars.filter((v) => !combined.includes(`process.env.${v}`));
+  return unused.map((v) => `.env: variável ${v} definida mas não utilizada no código`);
+}
+
 export async function analyzeProject(rootDir: string): Promise<AuditResult> {
   const stack = await detectStack(rootDir);
   const contradictions: DetectedContradiction[] = [];
@@ -96,6 +119,9 @@ export async function analyzeProject(rootDir: string): Promise<AuditResult> {
       }
     }
   }
+
+  const unusedEnvItems = await detectUnusedEnvVars(rootDir);
+  idleResources.push(...unusedEnvItems);
 
   const suggestions = contradictions.map((c) => lookupMatrix(c.improving, c.worsening));
   return { stack, contradictions, idleResources, suggestions };
