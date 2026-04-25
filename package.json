@@ -2,10 +2,14 @@
   "name": "claw-matrix-root",
   "private": true,
   "scripts": {
-    "test": "pnpm -r test",
+    "test": "pnpm -r test && node --test tests/integrations/*.test.mjs",
     "test:coverage": "pnpm -r test:coverage",
     "build": "pnpm -r build",
-    "typecheck": "pnpm -r typecheck"
+    "typecheck": "pnpm -r typecheck",
+    "test:integrations": "node --test tests/integrations/*.test.mjs",
+    "setup:claude-code": "node scripts/setup-claude-code.mjs",
+    "setup:codex": "node scripts/setup-codex.mjs",
+    "setup:integrations": "node scripts/setup-integrations.mjs"
   },
   "devDependencies": {
     "tsx": "^4.21.0"
