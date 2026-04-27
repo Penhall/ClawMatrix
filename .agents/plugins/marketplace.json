@@ -1,0 +1,20 @@
+{
+  "name": "clawmatrix-local",
+  "interface": {
+    "displayName": "ClawMatrix Local Plugins"
+  },
+  "plugins": [
+    {
+      "name": "clawmatrix",
+      "source": {
+        "source": "local",
+        "path": "./plugins/clawmatrix"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

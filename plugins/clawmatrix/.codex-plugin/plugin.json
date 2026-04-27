@@ -1,0 +1,29 @@
+{
+  "name": "clawmatrix",
+  "version": "0.1.0",
+  "description": "TRIZ contradiction matrix, IFR, audit, and solve workflows for Codex.",
+  "author": {
+    "name": "Penhall",
+    "url": "https://github.com/Penhall"
+  },
+  "homepage": "https://github.com/Penhall/ClawMatrix/tree/master/docs/integrations",
+  "repository": "https://github.com/Penhall/ClawMatrix",
+  "license": "UNLICENSED",
+  "keywords": ["triz", "engineering", "problem-solving", "cli", "innovation"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ClawMatrix",
+    "shortDescription": "TRIZ workflows backed by the ClawMatrix CLI.",
+    "longDescription": "Uses the compiled ClawMatrix CLI to analyze contradictions, IFRs, audits, and guided solve flows without duplicating TRIZ logic.",
+    "developerName": "Penhall",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "CLI"],
+    "websiteURL": "https://github.com/Penhall/ClawMatrix",
+    "defaultPrompt": [
+      "Find TRIZ principles for faster APIs without losing reliability.",
+      "Generate an IFR for passwordless authentication.",
+      "Audit this codebase for hidden engineering contradictions."
+    ],
+    "brandColor": "#0F766E"
+  }
+}

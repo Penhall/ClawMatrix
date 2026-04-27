@@ -49,22 +49,17 @@ export function resolveBackendPath({ repoRoot = findRepoRoot(), backendPath } = 
 export function createBackendCommand(options = {}) {
   const resolvedBackendPath = resolveBackendPath(options);
 
-  return {
-    command: process.execPath,
-    args: [resolvedBackendPath],
-  };
+  return ['node', resolvedBackendPath];
 }
 
 export function runtimeSummary(options = {}) {
   const repoRoot = options.repoRoot ?? findRepoRoot();
   const backendPath = resolveBackendPath({ ...options, repoRoot });
-  const command = createBackendCommand({ ...options, repoRoot, backendPath });
 
   return {
     repoRoot,
     backendPath,
-    command: command.command,
-    args: command.args,
+    command: `node "${backendPath}"`,
   };
 }
 

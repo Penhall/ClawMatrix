@@ -217,6 +217,15 @@ O projeto atualmente inclui:
 - testes E2E da CLI
 - workflow de CI em `.github/workflows/ci.yml`
 
+## Integrações com Agentes
+
+O ClawMatrix também inclui uma camada de integração para Claude Code e Codex usando a CLI compilada como backend real.
+
+- Guia compartilhado: `docs/integrations/README.md`
+- Troubleshooting compartilhado: `docs/integrations/troubleshooting.md`
+- Notas do Claude Code: `integrations/claude-code/docs/README.md`
+- Notas do Codex: `plugins/clawmatrix/docs/README.md`
+
 Comandos locais de verificação:
 
 ```bash

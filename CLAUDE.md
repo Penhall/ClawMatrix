@@ -15,10 +15,17 @@ pnpm monorepo with two packages:
 ## Commands
 
 ```
-pnpm test          # run all tests (engine + cli E2E)
+pnpm test          # run all tests (engine + cli E2E + integration checks)
 pnpm build         # build both packages
 pnpm typecheck     # TypeScript check
+pnpm setup:claude-code
+pnpm setup:codex
 ```
+
+## Local Claude Skill
+
+After running `pnpm setup:claude-code`, the project-local skill is installed at `.claude/skills/clawmatrix/SKILL.md`.
+Use that skill whenever the task is best served by `claw matrix`, `claw concept`, `claw ifr`, `claw audit`, or `claw solve`.
 
 ## Key invariant
 
@@ -26,4 +33,4 @@ pnpm typecheck     # TypeScript check
 
 ## Test runner
 
-Vitest. Engine tests are pure unit tests. CLI tests are E2E subprocess tests via execSync + tsx.
+Vitest. Engine tests are pure unit tests. CLI tests are E2E subprocess tests via execSync + tsx. Integration tests use the Node built-in test runner.

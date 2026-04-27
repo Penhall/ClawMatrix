@@ -92,15 +92,12 @@ test('createBackendCommand returns a node invocation for the resolved backend', 
     async (rootDir) => {
       const command = createBackendCommand({ repoRoot: rootDir });
 
-      assert.deepEqual(command, {
-        command: process.execPath,
-        args: [path.join(rootDir, 'packages', 'cli', 'dist', 'index.js')],
-      });
+      assert.deepEqual(command, ['node', path.join(rootDir, 'packages', 'cli', 'dist', 'index.js')]);
     },
   );
 });
 
-test('runtimeSummary reports repo root, backend path, and command details', async () => {
+test('runtimeSummary reports repo root, backend path, and command string', async () => {
   await withTempFixture(
     {
       'package.json': '{"name":"root","private":true}',
@@ -119,8 +116,7 @@ test('runtimeSummary reports repo root, backend path, and command details', asyn
       assert.deepEqual(summary, {
         repoRoot: rootDir,
         backendPath: path.join(rootDir, 'packages', 'cli', 'dist', 'index.js'),
-        command: process.execPath,
-        args: [path.join(rootDir, 'packages', 'cli', 'dist', 'index.js')],
+        command: `node "${path.join(rootDir, 'packages', 'cli', 'dist', 'index.js')}"`,
       });
     },
   );
@@ -151,8 +147,7 @@ test('direct-run mode prints the runtime summary as JSON', async () => {
       assert.deepEqual(summary, {
         repoRoot: rootDir,
         backendPath: path.join(rootDir, 'packages', 'cli', 'dist', 'index.js'),
-        command: process.execPath,
-        args: [path.join(rootDir, 'packages', 'cli', 'dist', 'index.js')],
+        command: `node "${path.join(rootDir, 'packages', 'cli', 'dist', 'index.js')}"`,
       });
     },
   );
